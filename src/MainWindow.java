@@ -1,8 +1,10 @@
+import io.qt.gui.QIcon;
 import io.qt.widgets.*;
 
 public class MainWindow extends QMainWindow {
     public MainWindow(){
         setWindowTitle("Temperature Converse");
+        setWindowIcon(new QIcon("C:\\Users\\ratch\\IdeaProjects\\temp-conversor\\.idea\\images\\icon.jpg"));
         setupUI();
     }
 
